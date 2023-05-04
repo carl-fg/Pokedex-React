@@ -19,7 +19,7 @@ export default function Home() {
 
     async function fetchData(){
 
-      const response = await fetch('https://pokebuildapi.fr/api/v1/pokemon/limit/2000'); // Ici 250 pokemons seront affichés, à vous de choisir le nombre de pokemons à mettre en modifiant le 250 se trouvant à la fin de l'URL de l'API.
+      const response = await fetch('https://pokebuildapi.fr/api/v1/pokemon/limit/250'); // Ici 250 pokemons seront affichés, à vous de choisir le nombre de pokemons à mettre en modifiant le 250 se trouvant à la fin de l'URL de l'API.
       const data = await response.json();
       setDataPokemons(data);
     }
