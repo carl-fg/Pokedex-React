@@ -1,0 +1,23 @@
+.main .section_une {
+  gap: 1rem;
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.main .section_une .section_une_title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.main .section_une .s_une_info_projet_text {
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+  .section_une_title {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */

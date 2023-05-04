@@ -1,0 +1,48 @@
+.card_container {
+  gap: 5rem;
+  display: flex;
+  padding: 0 5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card_container .card {
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  border-radius: 10px;
+  background-color: #e3e3e3;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.card_container .card .card_img_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_container .card .card_img_container .card_img {
+  width: 90%;
+}
+.card_container .card .card_infos {
+  gap: 1rem;
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.card_container .card .card_infos .card_name {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.card_container .card .card_infos .card_stats {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .card_container {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=Card.css.map */
