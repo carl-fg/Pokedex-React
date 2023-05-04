@@ -11,7 +11,7 @@ Open the terminal of your IDE (on VSC by pressing CTRL + ù or by clicking on "T
 
 ### `Installation of dependencies`
 
-Once the terminal is open you just have to write the following command: npm install
+Once the terminal is open you just have to write the following command: `npm install`
 
 This command will install the files necessary to launch the server.
 
